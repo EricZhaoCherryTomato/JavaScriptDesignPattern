@@ -1,7 +1,7 @@
 'use strict'
 
 class Task {
-    constructor(name){
+    constructor(name) {
         this.name = name;
         this.complete = false;
     };
