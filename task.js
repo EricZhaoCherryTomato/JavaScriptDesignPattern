@@ -7,5 +7,5 @@ Task.prototype.save = function() {
      console.log("saving task: " + this.name);
 };
 
-var task1 = new Task("task 1");
-task1.save();
+
+module.exports = Task;
